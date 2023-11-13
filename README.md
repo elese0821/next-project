@@ -17,15 +17,23 @@ npm i scss
 npm i @studio-freight/lenis
 
 What is your project named? my-app
+
 Would you like to use TypeScript? <span "style=color=blue">No</span> / Yes
+
 Would you like to use ESLint? No / <span "style=color=blue">Yes</span>
+
 Would you like to use Tailwind CSS? <span "style=color=blue">No</span> / Yes
+
 Would you like to use `src/` directory? No / <span "style=color=blue">Yes</span>
+
 Would you like to use App Router? (recommended) No / Yes
+
 Would you like to customize the default import alias (@/*)? No / <span"style=color=blue">Yes</span>
+
 What import alias would you like configured? @/*
 
 ## ssr과 csr의 차이점
+<<<<<<< HEAD
 
 서버 사이드 렌더링(SSR)과 클라이언트 사이드 렌더링(CSR)의 차이는 웹 페이지의 초기 렌더링이 어디에서 이루어지는지에 대한 차이입니다.
 
@@ -34,3 +42,5 @@ What import alias would you like configured? @/*
 - 클라이언트 사이드 렌더링(CSR): CSR은 브라우저(클라이언트)에서 JavaScript를 통해 HTML을 생성하는 방식입니다. 사용자가 웹사이트를 요청하면, 서버에서는 최소한의 HTML과 JavaScript 파일만 보내주고, 실제 페이지 렌더링은 사용자의 브라우저에서 JavaScript를 통해 이루어집니다. 이 방식은 서버 부하를 줄일 수 있지만, 초기 로딩 시간이 오래 걸릴 수 있으며, 검색 엔진이 페이지를 제대로 파싱하지 못해 SEO에 불리할 수 있습니다.
 따라서 SSR과 CSR 중 어떤 것을 사용할지는 웹사이트의 특성과 필요성에 따라 결정해야 합니다. 예를 들어, 사용자 인터랙션이 많고 동적인 웹사이트라면 CSR을, SEO가 중요한 웹사이트라면 SSR을 선택하는 것이 좋을 수 있습니다.
 
+=======
+>>>>>>> f1c6df563053ba6af3e852ba75fb451fae884e59

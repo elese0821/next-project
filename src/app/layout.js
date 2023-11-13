@@ -8,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ko">
-      {/* <link rel="icon" type="image/svg+xml" src="favicon.svg" /> */}
+      <link rel="icon" type="image/svg+xml" href="favicon.svg" />
       <body>{children}</body>
     </html>
   )
