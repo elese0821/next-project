@@ -13,12 +13,19 @@ Next.js는 JavaScript 프레임워크 중 하나로서, React 기반의 서버 �
 npx create-next-app@latest
 
 What is your project named? my-app
+
 Would you like to use TypeScript? <span "style=color=blue">No</span> / Yes
+
 Would you like to use ESLint? No / <span "style=color=blue">Yes</span>
+
 Would you like to use Tailwind CSS? <span "style=color=blue">No</span> / Yes
+
 Would you like to use `src/` directory? No / <span "style=color=blue">Yes</span>
+
 Would you like to use App Router? (recommended) No / Yes
+
 Would you like to customize the default import alias (@/*)? No / <span"style=color=blue">Yes</span>
+
 What import alias would you like configured? @/*
 
 ## ssr과 csr의 차이점
